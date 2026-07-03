@@ -1,0 +1,2 @@
+timestamp,battery_temp,ambient_temp,soc,charging_watt,screen,cooling,notes
+2026-07-04 22:00,32.0,25.0,60,7.5,on,none,baseline
