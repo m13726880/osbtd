@@ -28,3 +28,32 @@ This project collects real-world smartphone battery temperature data under diffe
 
 ## License
 MIT License
+
+## Research Assumptions
+
+This project assumes:
+
+- Battery temperature is influenced by ambient temperature + internal heat generation
+- Cooling efficiency is determined by thermal resistance, not linear temperature difference alone
+- Charging state significantly increases thermal load compared to idle usage
+- Smartphone thermal behavior is device-specific and must be empirically measured
+
+
+## Modeling Philosophy
+
+This project uses empirical and simplified models.
+
+It is NOT a full physical simulation.
+
+Approaches used:
+- regression-based modeling
+- simplified thermal resistance approximations
+- observational data fitting
+
+
+## Data Priority
+
+1. Real measured data (highest priority)
+2. Repeated measurements under same conditions
+3. Derived estimates
+4. Synthetic data (lowest priority)
