@@ -13,3 +13,8 @@ Raw data must be append-only.
 
 ## 4. Invalid data handling
 Noisy or inconsistent data should be flagged, not deleted.
+
+## Data Integrity Rules
+## Invalid Data Handling
+## No Overwrite Policy
+## Sampling Interval Rule
