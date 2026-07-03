@@ -57,3 +57,35 @@ Approaches used:
 2. Repeated measurements under same conditions
 3. Derived estimates
 4. Synthetic data (lowest priority)
+
+
+## Minimal Reproduction Protocol
+
+### Device
+Google Pixel 6a
+
+### Measurement tool
+Battery temperature from system API / AccuBattery
+
+### Conditions
+- Ambient temperature: 22–28°C
+- Screen brightness: fixed 50%
+- No case / case must be specified
+
+### Sampling interval
+Every 5 minutes
+
+### Minimum dataset
+- 30 minutes idle
+- 30 minutes charging
+- fan ON/OFF comparison
+
+### Success criteria
+- Temperature variance < ±1.5°C under stable conditions
+
+## Research Assumptions
+## Modeling Philosophy
+## Data Priority
+## Measurement Uncertainty
+## Battery Temperature Definition
+## Time Scale Assumption
