@@ -30,3 +30,23 @@ Synthetic values are used for:
 - Comparative analysis
 
 All synthetic entries are explicitly labeled in the `source_type` column.
+
+# Data Source Definitions
+
+## Real Data
+Directly measured from Pixel 6a usage.
+
+## Derived Data
+Calculated from partial measurements or interpolation.
+
+## Synthetic Data
+Generated using simplified thermal models:
+
+T_battery ≈ 0.88 × T_ambient + 9.5
+
+## Important Notice
+
+Synthetic data is NOT ground truth and is used only for:
+- baseline modeling
+- missing condition estimation
+- comparison reference
