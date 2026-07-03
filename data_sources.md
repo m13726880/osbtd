@@ -50,3 +50,9 @@ Synthetic data is NOT ground truth and is used only for:
 - baseline modeling
 - missing condition estimation
 - comparison reference
+
+
+## Real Data
+## Derived Data
+## Synthetic Data
+## Source Classification Rules
